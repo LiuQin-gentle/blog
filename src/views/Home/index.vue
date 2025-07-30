@@ -6,18 +6,12 @@
  * @Description: 首页
 -->
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-});
 </script>
 
 <template>
   <div class="common-layout">
     <el-container>
-      <el-header>{{ msg }}</el-header>
+      <el-header>Header</el-header>
       <el-container>
         <el-aside width="200px">Aside</el-aside>
         <el-main style="height: calc(100vh - 60px)">Main</el-main>
